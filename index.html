@@ -6,393 +6,343 @@
     <title>Mendonça & Silveira | Advocacia & Consultoria Jurídica</title>
     <meta name="description" content="Escritório de advocacia especializado em Direito Empresarial, Proteção Patrimonial, Direito Civil e Trabalhista Patronal em São Paulo.">
     
-    <!-- Google Fonts: Cormorant Garamond & Plus Jakarta Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     
-    <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Header Wrapper (Top Bar + Main Navigation Seamless Header) -->
-    <div class="header-wrapper">
-        <!-- Top Bar -->
-        <div class="top-bar">
-            <div class="container top-bar-inner">
-                <div class="top-bar-info">
-                    <span><i class="fa-solid fa-location-dot"></i> Av. Brigadeiro Faria Lima, 2000 - Cj 1804, Itaim Bibi - SP</span>
-                    <span><i class="fa-solid fa-clock"></i> Atendimento: Seg a Sex das 08h30 às 18h30</span>
-                </div>
-                <div class="top-bar-contact">
-                    <a href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20jur%C3%ADdicas." target="_blank">
-                        <i class="fa-brands fa-whatsapp"></i> (11) 99999-9999
-                    </a>
-                </div>
-            </div>
+    <!-- Barra superior minimalista -->
+    <div class="announce-bar">
+        <div class="wrap">
+            <span>Av. Faria Lima, 2000 · Cj 1804 — São Paulo, SP</span>
+            <a href="tel:+5511999999999">(11) 99999-9999</a>
         </div>
-
-        <!-- Navigation Header -->
-        <header class="header" id="header">
-            <div class="container nav-container">
-                <a href="#" class="logo">
-                    <span class="logo-title">MENDONÇA & SILVEIRA</span>
-                    <span class="logo-sub">ADVOCACIA & CONSULTORIA JURÍDICA • OAB-SP 123.456</span>
-                </a>
-
-                <nav class="nav-menu" id="nav-menu">
-                    <ul class="nav-list">
-                        <li><a href="#escritorio" class="nav-link">O Escritório</a></li>
-                        <li><a href="#areas" class="nav-link">Áreas de Atuação</a></li>
-                        <li><a href="#estrutura" class="nav-link">Estrutura</a></li>
-                        <li><a href="#diferenciais" class="nav-link">Diferenciais</a></li>
-                        <li><a href="#faq" class="nav-link">Dúvidas</a></li>
-                        <li><a href="#contato" class="nav-link">Localização</a></li>
-                    </ul>
-                </nav>
-
-                <div class="nav-actions">
-                    <a href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20jur%C3%ADdica." target="_blank" class="btn btn-gold">
-                        Agendar Consulta
-                    </a>
-                    <button class="hamburger" id="hamburger" aria-label="Abrir Menu">
-                        <i class="fa-solid fa-bars"></i>
-                    </button>
-                </div>
-            </div>
-        </header>
     </div>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container hero-grid">
-            <div class="hero-text">
-                <span class="hero-tag">ADVOCACIA DE ALTA COMPLEXIDADE</span>
-                <h1 class="hero-heading">Soluções jurídicas estratégicas com <span class="serif-italic">excelência e agilidade.</span></h1>
-                <p class="hero-lead">
-                    Atuação contenciosa e consultiva focada na proteção patrimonial, eficiência tributária e defesa dos interesses da sua empresa e família.
-                </p>
-                
-                <div class="hero-buttons">
-                    <a href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20um%20advogado%20especialista." target="_blank" class="btn btn-dark">
-                        <i class="fa-brands fa-whatsapp"></i> Falar com Advogado
-                    </a>
-                    <a href="#areas" class="btn btn-link">
-                        Ver Áreas de Atuação <i class="fa-solid fa-arrow-right"></i>
-                    </a>
-                </div>
+    <!-- Navegação -->
+    <header class="site-header" id="header">
+        <div class="wrap nav-row">
+            <a href="#" class="brand">
+                <strong>Mendonça<span>&</span>Silveira</strong>
+                <small>Advocacia · OAB/SP 123.456</small>
+            </a>
 
-                <div class="hero-stats">
-                    <div class="stat-box">
-                        <span class="stat-number">15+</span>
-                        <span class="stat-text">Anos de experiência</span>
-                    </div>
-                    <div class="stat-box">
-                        <span class="stat-number">2.500+</span>
-                        <span class="stat-text">Casos de sucesso</span>
-                    </div>
-                    <div class="stat-box">
-                        <span class="stat-number">OAB-SP</span>
-                        <span class="stat-text">123.456</span>
-                    </div>
+            <nav id="nav-menu">
+                <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#areas" class="nav-link">Áreas</a>
+                <a href="#estrutura" class="nav-link">Estrutura</a>
+                <a href="#faq" class="nav-link">Dúvidas</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </nav>
+
+            <a href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" class="cta-header">Agendar Consulta</a>
+            
+            <button class="menu-toggle" id="hamburger" aria-label="Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="wrap hero-inner">
+            <div class="hero-copy">
+                <p class="eyebrow">Advocacia de Alta Complexidade</p>
+                <h1>Estratégia jurídica<br>com visão de <em>negócio.</em></h1>
+                <p class="hero-sub">Proteção patrimonial, eficiência tributária e defesa contenciosa para empresas e famílias que não aceitam menos que o melhor.</p>
+                
+                <div class="hero-ctas">
+                    <a href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20falar%20com%20um%20advogado." target="_blank" class="btn-primary">
+                        <i class="fa-brands fa-whatsapp"></i> Falar com advogado
+                    </a>
+                    <a href="#areas" class="btn-ghost">Áreas de atuação →</a>
                 </div>
             </div>
 
-            <div class="hero-image-box">
-                <img src="assets/images/office-hero.jpg" alt="Escritório de Advocacia Mendonça & Silveira">
-                <div class="floating-badge">
-                    <i class="fa-solid fa-scale-balanced"></i>
-                    <div>
-                        <strong>Atendimento Sigiloso & Personalizado</strong>
-                        <p>Consultoria jurídica contínua</p>
-                    </div>
+            <div class="hero-visual">
+                <img src="assets/images/office-hero.jpg" alt="Escritório Mendonça & Silveira">
+                <div class="hero-badge">
+                    <span class="badge-number">15+</span>
+                    <span class="badge-label">anos de<br>atuação</span>
                 </div>
+            </div>
+        </div>
+
+        <div class="wrap hero-metrics">
+            <div class="metric">
+                <span>2.500+</span>
+                <small>Casos resolvidos</small>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric">
+                <span>OAB/SP</span>
+                <small>123.456</small>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric">
+                <span>Faria Lima</span>
+                <small>São Paulo, SP</small>
             </div>
         </div>
     </section>
 
-    <!-- Section: O Escritório / Sócios -->
-    <section class="section section-escritorio" id="escritorio">
-        <div class="container escritorio-grid">
-            <div class="escritorio-photo">
-                <img src="assets/images/lawyer-portrait.jpg" alt="Dr. Gabriel Mendonça Advogado">
+    <!-- Sobre / O Sócio -->
+    <section class="section bg-cream" id="sobre">
+        <div class="wrap split-block">
+            <div class="split-img">
+                <img src="assets/images/lawyer-portrait.jpg" alt="Dr. Gabriel Mendonça">
+                <div class="img-caption">Dr. Gabriel Mendonça · Sócio-Fundador</div>
             </div>
-            <div class="escritorio-content">
-                <span class="section-tag">COMPROMISSO COM O CLIENTE</span>
-                <h2 class="section-title">Dr. Gabriel <span class="serif-italic">Mendonça</span></h2>
-                <p class="lawyer-sub">Sócio-Fundador • Especialista em Direito Empresarial & Blindagem Patrimonial</p>
+            <div class="split-text">
+                <p class="eyebrow">O escritório</p>
+                <h2>Rigor técnico.<br>Agilidade <em>moderna.</em></h2>
+                <p>Fundado em 2011, o escritório Mendonça & Silveira nasceu da convicção de que advocacia de alto nível exige mais do que conhecimento jurídico — exige visão estratégica, comunicação transparente e comprometimento real com o resultado do cliente.</p>
+                <p>Dr. Gabriel Mendonça é especialista em Direito Empresarial e Blindagem Patrimonial, com atuação em fusões, holdings familiares e planejamento sucessório para famílias e empresas de grande porte.</p>
+                
+                <ul class="check-list">
+                    <li>Análise preventiva de riscos contratuais</li>
+                    <li>Estruturação de Holdings Familiares</li>
+                    <li>Acompanhamento direto pelos sócios</li>
+                </ul>
 
-                <p class="escritorio-p">
-                    Entendemos que os desafios jurídicos exigem rapidez, sigilo absoluto e visão de negócios. Nosso escritório alia o rigor técnico do direito tradicional à agilidade da advocacia moderna.
-                </p>
+                <a href="https://wa.me/5511999999999?text=Olá%20Dr.%20Gabriel!%20Gostaria%20de%20marcar%20uma%20reunião." target="_blank" class="btn-outline">Agendar reunião com o sócio</a>
+            </div>
+        </div>
+    </section>
 
-                <div class="features-list">
-                    <div class="feature-item">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Análise preventiva de riscos contratuais e societários</span>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Estruturação de Holdings Familiares e Planejamento Sucessório</span>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Acompanhamento direto pelos sócios em todas as instâncias</span>
-                    </div>
-                </div>
+    <!-- Áreas de Atuação -->
+    <section class="section" id="areas">
+        <div class="wrap">
+            <div class="section-intro">
+                <p class="eyebrow">Especialidades</p>
+                <h2>Áreas de <em>atuação.</em></h2>
+            </div>
 
-                <a href="https://wa.me/5511999999999?text=Ol%C3%A1%20Dr.%20Gabriel!%20Gostaria%20de%20agendar%20uma%20reuni%C3%A3o." target="_blank" class="btn btn-outline">
-                    Agendar Reunião com o Sócio
+            <div class="areas-list">
+                <a href="https://wa.me/5511999999999?text=Quero%20consultoria%20em%20Direito%20Empresarial" target="_blank" class="area-row">
+                    <span class="area-num">01</span>
+                    <div class="area-info">
+                        <h3>Direito Empresarial & Societário</h3>
+                        <p>Acordos de sócios, M&A, governança corporativa e reorganização societária.</p>
+                    </div>
+                    <i class="fa-solid fa-arrow-right area-arrow"></i>
+                </a>
+
+                <a href="https://wa.me/5511999999999?text=Quero%20saber%20mais%20sobre%20Holding%20Familiar" target="_blank" class="area-row">
+                    <span class="area-num">02</span>
+                    <div class="area-info">
+                        <h3>Proteção Patrimonial & Holdings</h3>
+                        <p>Blindagem patrimonial através de Holdings Familiares com redução de impostos e prevenção de litígios.</p>
+                    </div>
+                    <i class="fa-solid fa-arrow-right area-arrow"></i>
+                </a>
+
+                <a href="https://wa.me/5511999999999?text=Quero%20consultoria%20em%20Direito%20de%20Familia" target="_blank" class="area-row">
+                    <span class="area-num">03</span>
+                    <div class="area-info">
+                        <h3>Direito Civil & Família</h3>
+                        <p>Inventários, divórcios, partilha de bens e planejamento sucessório.</p>
+                    </div>
+                    <i class="fa-solid fa-arrow-right area-arrow"></i>
+                </a>
+
+                <a href="https://wa.me/5511999999999?text=Quero%20consultoria%20em%20Direito%20Tributario" target="_blank" class="area-row">
+                    <span class="area-num">04</span>
+                    <div class="area-info">
+                        <h3>Direito Tributário & Defesa Fiscal</h3>
+                        <p>Recuperação de tributos, planejamento tributário preventivo e defesa em execuções fiscais.</p>
+                    </div>
+                    <i class="fa-solid fa-arrow-right area-arrow"></i>
+                </a>
+
+                <a href="https://wa.me/5511999999999?text=Quero%20consultoria%20em%20Direito%20Imobiliario" target="_blank" class="area-row">
+                    <span class="area-num">05</span>
+                    <div class="area-info">
+                        <h3>Direito Imobiliário & Contratos</h3>
+                        <p>Compra, venda, locação de alto padrão, usucapião e regularização fundiária.</p>
+                    </div>
+                    <i class="fa-solid fa-arrow-right area-arrow"></i>
+                </a>
+
+                <a href="https://wa.me/5511999999999?text=Quero%20consultoria%20em%20Defesa%20Trabalhista" target="_blank" class="area-row">
+                    <span class="area-num">06</span>
+                    <div class="area-info">
+                        <h3>Defesa Trabalhista Patronal</h3>
+                        <p>Defesa empresarial em reclamações trabalhistas, compliance e adequação à CLT.</p>
+                    </div>
+                    <i class="fa-solid fa-arrow-right area-arrow"></i>
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- Section: Áreas de Atuação -->
-    <section class="section section-areas" id="areas">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">ESPECIALIDADES</span>
-                <h2 class="section-title">Nossas áreas de <span class="serif-italic">atuação jurídica.</span></h2>
+    <!-- Estrutura -->
+    <section class="section bg-cream" id="estrutura">
+        <div class="wrap">
+            <div class="section-intro centered">
+                <p class="eyebrow">Infraestrutura</p>
+                <h2>Nosso espaço.</h2>
+                <p class="intro-sub">Estrutura completa na região da Faria Lima, com salas equipadas para reuniões presenciais e por videoconferência.</p>
             </div>
 
-            <div class="areas-grid">
-                <div class="area-card">
-                    <span class="card-num">01</span>
-                    <h3>Direito Empresarial & Societário</h3>
-                    <p>Elaboração de acordos de sócios, fusões e aquisições (M&A), governança corporativa e reorganização societária.</p>
-                    <a href="https://wa.me/5511999999999?text=Quero%20consultoria%20em%20Direito%20Empresarial" target="_blank" class="card-cta">Falar com Especialista <i class="fa-solid fa-arrow-right"></i></a>
-                </div>
-
-                <div class="area-card">
-                    <span class="card-num">02</span>
-                    <h3>Proteção Patrimonial & Holdings</h3>
-                    <p>Blindagem legal do patrimônio familiar e empresarial através de Holdings Familiares, reduzindo impostos e prevenindo litígios de inventário.</p>
-                    <a href="https://wa.me/5511999999999?text=Quero%20saber%20mais%20sobre%20Holding%20Familiar" target="_blank" class="card-cta">Falar com Especialista <i class="fa-solid fa-arrow-right"></i></a>
-                </div>
-
-                <div class="area-card">
-                    <span class="card-num">03</span>
-                    <h3>Direito Civil & Família</h3>
-                    <p>Inventários judiciais e extrajudiciais, divórcios consensuais e litigiosos, partilha de bens e planejamento sucessório.</p>
-                    <a href="https://wa.me/5511999999999?text=Quero%20consultoria%20em%20Direito%20de%20Familia" target="_blank" class="card-cta">Falar com Especialista <i class="fa-solid fa-arrow-right"></i></a>
-                </div>
-
-                <div class="area-card">
-                    <span class="card-num">04</span>
-                    <h3>Direito Tributário & Defesa Fiscal</h3>
-                    <p>Recuperação de tributos pagos indevidamente, planejamento tributário preventivo e defesa em execuções fiscais.</p>
-                    <a href="https://wa.me/5511999999999?text=Quero%20consultoria%20em%20Direito%20Tributario" target="_blank" class="card-cta">Falar com Especialista <i class="fa-solid fa-arrow-right"></i></a>
-                </div>
-
-                <div class="area-card">
-                    <span class="card-num">05</span>
-                    <h3>Direito Imobiliário & Contratos</h3>
-                    <p>Assessoria em compra, venda e locação de imóveis de alto padrão, usucapião, regularização fundiária e auditoria imobiliária.</p>
-                    <a href="https://wa.me/5511999999999?text=Quero%20consultoria%20em%20Direito%20Imobiliario" target="_blank" class="card-cta">Falar com Especialista <i class="fa-solid fa-arrow-right"></i></a>
-                </div>
-
-                <div class="area-card">
-                    <span class="card-num">06</span>
-                    <h3>Defesa Trabalhista Patronal</h3>
-                    <p>Defesa de empresas em reclamações trabalhistas, auditoria de compliance trabalhista e adequação às normas da CLT.</p>
-                    <a href="https://wa.me/5511999999999?text=Quero%20consultoria%20em%20Defesa%20Trabalhista" target="_blank" class="card-cta">Falar com Especialista <i class="fa-solid fa-arrow-right"></i></a>
-                </div>
+            <div class="photo-strip">
+                <figure class="photo-card">
+                    <img src="assets/images/office-hero.jpg" alt="Gabinete de atendimento">
+                    <figcaption>Gabinete de Atendimento</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="assets/images/meeting-room.jpg" alt="Sala de reuniões">
+                    <figcaption>Sala de Reuniões</figcaption>
+                </figure>
+                <figure class="photo-card">
+                    <img src="assets/images/lawyer-portrait.jpg" alt="Equipe jurídica">
+                    <figcaption>Equipe Especializada</figcaption>
+                </figure>
             </div>
         </div>
     </section>
 
-    <!-- Section: Estrutura / Instalações -->
-    <section class="section section-estrutura" id="estrutura">
-        <div class="container">
-            <div class="section-header text-center">
-                <span class="section-tag">INFRAESTRUTURA</span>
-                <h2 class="section-title">Conheça o nosso <span class="serif-italic">espaço corporativo.</span></h2>
-                <p class="section-lead">Salas de reunião equipadas para reuniões presenciais e por videoconferência com total sigilo.</p>
+    <!-- Diferenciais (Faixa escura) -->
+    <section class="section dark-band">
+        <div class="wrap pillars-row">
+            <div class="pillar">
+                <div class="pillar-line"></div>
+                <h3>Sigilo absoluto</h3>
+                <p>Todas as informações patrimoniais e negociais tratadas com ética e confidencialidade irrestrita.</p>
             </div>
-
-            <div class="gallery-grid">
-                <div class="gallery-card">
-                    <img src="assets/images/office-hero.jpg" alt="Gabinete do Advogado">
-                    <div class="gallery-info">
-                        <h4>Gabinete de Atendimento</h4>
-                        <p>Ambiente reservado para consultas exclusivas</p>
-                    </div>
-                </div>
-
-                <div class="gallery-card">
-                    <img src="assets/images/meeting-room.jpg" alt="Sala de Reuniões de Conselho">
-                    <div class="gallery-info">
-                        <h4>Sala de Reuniões VIP</h4>
-                        <p>Estrutura para mediações e negociações de grande porte</p>
-                    </div>
-                </div>
-
-                <div class="gallery-card">
-                    <img src="assets/images/lawyer-portrait.jpg" alt="Dr. Gabriel Mendonça">
-                    <div class="gallery-info">
-                        <h4>Equipe Especializada</h4>
-                        <p>Advogados dedicados ao seu processo</p>
-                    </div>
-                </div>
+            <div class="pillar">
+                <div class="pillar-line"></div>
+                <h3>Resposta ágil</h3>
+                <p>Comunicação direta via WhatsApp, com atualização constante sobre o andamento dos processos.</p>
+            </div>
+            <div class="pillar">
+                <div class="pillar-line"></div>
+                <h3>Foco em resultado</h3>
+                <p>Estratégias voltadas à solução rápida de conflitos e redução de custos operacionais.</p>
             </div>
         </div>
     </section>
 
-    <!-- Section: Diferenciais -->
-    <section class="section section-diferenciais" id="diferenciais">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">POR QUE NOS ESCOLHER</span>
-                <h2 class="section-title">Pilares da nossa <span class="serif-italic">atuação.</span></h2>
+    <!-- FAQ -->
+    <section class="section" id="faq">
+        <div class="wrap faq-layout">
+            <div class="faq-intro">
+                <p class="eyebrow">Tira-dúvidas</p>
+                <h2>Perguntas<br><em>frequentes.</em></h2>
             </div>
-
-            <div class="diferenciais-grid">
-                <div class="diferencial-item">
-                    <div class="diferencial-icon"><i class="fa-solid fa-user-shield"></i></div>
-                    <h3>Sigilo & Confidencialidade</h3>
-                    <p>Tratamento ético e sigiloso de todas as informações patrimoniais e negociais dos nossos clientes.</p>
-                </div>
-
-                <div class="diferencial-item">
-                    <div class="diferencial-icon"><i class="fa-solid fa-bolt"></i></div>
-                    <h3>Agilidade nas Respostas</h3>
-                    <p>Comunicação direta via WhatsApp e e-mail com atualização constante do andamento dos processos.</p>
-                </div>
-
-                <div class="diferencial-item">
-                    <div class="diferencial-icon"><i class="fa-solid fa-chart-line"></i></div>
-                    <h3>Foco em Resultados</h3>
-                    <p>Estratégias jurídicas voltadas para a solução rápida de conflitos e redução de custos operacionais.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section: FAQ Jurídico -->
-    <section class="section section-faq" id="faq">
-        <div class="container">
-            <div class="section-header text-center">
-                <span class="section-tag">TIRA-DÚVIDAS</span>
-                <h2 class="section-title">Dúvidas <span class="serif-italic">frequentes.</span></h2>
-            </div>
-
-            <div class="faq-accordion">
+            <div class="faq-list">
                 <div class="faq-item">
-                    <button class="faq-question">
+                    <button class="faq-q">
                         <span>Como funciona a primeira consulta jurídica?</span>
-                        <i class="fa-solid fa-chevron-down"></i>
+                        <i class="fa-solid fa-plus"></i>
                     </button>
-                    <div class="faq-answer">
-                        <p>A primeira consulta pode ser presencial em nosso escritório na Faria Lima ou por videoconferência. Realizamos uma análise detalhada dos documentos e apresentamos a estratégia jurídica mais recomendada para o seu caso.</p>
+                    <div class="faq-a">
+                        <p>A primeira consulta pode ser presencial no escritório da Faria Lima ou por videoconferência. Analisamos os documentos em detalhes e apresentamos a estratégia mais adequada ao seu caso.</p>
                     </div>
                 </div>
 
                 <div class="faq-item">
-                    <button class="faq-question">
-                        <span>O escritório atende clientes de outros estados ou fora do Brasil?</span>
-                        <i class="fa-solid fa-chevron-down"></i>
+                    <button class="faq-q">
+                        <span>Atendem clientes de outros estados?</span>
+                        <i class="fa-solid fa-plus"></i>
                     </button>
-                    <div class="faq-answer">
-                        <p>Sim! Atendemos clientes corporativos e individuais de todo o Brasil e exterior por meio de assinatura digital de contratos e reuniões virtuais seguras.</p>
+                    <div class="faq-a">
+                        <p>Sim. Atendemos clientes de todo o Brasil e do exterior por meio de assinatura digital de contratos e reuniões virtuais seguras.</p>
                     </div>
                 </div>
 
                 <div class="faq-item">
-                    <button class="faq-question">
-                        <span>O que é uma Holding Familiar e quais os benefícios?</span>
-                        <i class="fa-solid fa-chevron-down"></i>
+                    <button class="faq-q">
+                        <span>O que é uma Holding Familiar?</span>
+                        <i class="fa-solid fa-plus"></i>
                     </button>
-                    <div class="faq-answer">
-                        <p>A Holding Familiar é uma empresa criada para gerenciar os bens de uma família. Ela evita inventários demorados, reduz os custos tributários na transferência de bens para herdeiros e protege o patrimônio contra riscos de mercado.</p>
+                    <div class="faq-a">
+                        <p>Uma Holding Familiar é uma empresa criada para administrar os bens de uma família, evitando inventários demorados, reduzindo tributos na transferência de bens e protegendo o patrimônio contra riscos.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-q">
+                        <span>Qual o investimento para uma consulta inicial?</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                    <div class="faq-a">
+                        <p>Os honorários variam de acordo com a complexidade da demanda. Entre em contato pelo WhatsApp para receber uma proposta personalizada sem compromisso.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Section: Localização & Agendamento -->
-    <section class="section section-contato" id="contato">
-        <div class="container">
-            <div class="contato-card-container">
-                <div class="contato-info-panel">
-                    <span class="section-tag">LOCALIZAÇÃO & CONTATO</span>
-                    <h2 class="section-title">Fale com nossa <span class="serif-italic">equipe.</span></h2>
-                    <p class="contato-desc">Atendimento presencial com total sigilo no centro financeiro de São Paulo. Estacionamento com valet no edifício.</p>
+    <!-- Contato & Mapa -->
+    <section class="section bg-cream" id="contato">
+        <div class="wrap">
+            <div class="section-intro">
+                <p class="eyebrow">Localização & Contato</p>
+                <h2>Venha nos <em>visitar.</em></h2>
+            </div>
 
-                    <div class="contact-details">
-                        <div class="detail-row">
-                            <div class="detail-icon"><i class="fa-solid fa-location-dot"></i></div>
-                            <div class="detail-text">
-                                <strong>Endereço do Escritório:</strong>
-                                <p>Av. Brigadeiro Faria Lima, 2000 - Conjunto 1804<br>Itaim Bibi, São Paulo - SP, 01451-000</p>
-                            </div>
+            <div class="contato-grid">
+                <div class="contato-dados">
+                    <div class="dado">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <strong>Endereço</strong>
+                            <p>Av. Brigadeiro Faria Lima, 2000 — Cj 1804<br>Itaim Bibi, São Paulo · SP, 01451-000</p>
                         </div>
-
-                        <div class="detail-row">
-                            <div class="detail-icon"><i class="fa-brands fa-whatsapp"></i></div>
-                            <div class="detail-text">
-                                <strong>WhatsApp Institucional:</strong>
-                                <p><a href="https://wa.me/5511999999999" target="_blank">(11) 99999-9999</a></p>
-                            </div>
+                    </div>
+                    <div class="dado">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <div>
+                            <strong>WhatsApp</strong>
+                            <p><a href="https://wa.me/5511999999999" target="_blank">(11) 99999-9999</a></p>
                         </div>
-
-                        <div class="detail-row">
-                            <div class="detail-icon"><i class="fa-solid fa-envelope"></i></div>
-                            <div class="detail-text">
-                                <strong>E-mail de Contato:</strong>
-                                <p>contato@mendoncasilveira.adv.br</p>
-                            </div>
+                    </div>
+                    <div class="dado">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <strong>E-mail</strong>
+                            <p>contato@mendoncasilveira.adv.br</p>
                         </div>
-
-                        <div class="detail-row">
-                            <div class="detail-icon"><i class="fa-solid fa-clock"></i></div>
-                            <div class="detail-text">
-                                <strong>Horário de Funcionamento:</strong>
-                                <p>Segunda a Sexta: 08:30h às 18:30h</p>
-                            </div>
+                    </div>
+                    <div class="dado">
+                        <i class="fa-solid fa-clock"></i>
+                        <div>
+                            <strong>Horário</strong>
+                            <p>Seg a Sex · 08:30h às 18:30h</p>
                         </div>
                     </div>
 
-                    <a href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20jur%C3%ADdica." target="_blank" class="btn btn-gold btn-lg btn-block text-center">
-                        <i class="fa-brands fa-whatsapp"></i> Agendar Consulta via WhatsApp
+                    <a href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" class="btn-primary full-w">
+                        <i class="fa-brands fa-whatsapp"></i> Agendar consulta
                     </a>
                 </div>
 
-                <div class="contato-map-panel">
-                    <div class="map-box">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.702759882207!2d-46.6896238!3d-23.5791336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5773179268f7%3A0xd68bc91959828d54!2sAv.%20Brig.%20Faria%20Lima%2C%202000%20-%20Jardim%20Paulistano%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" 
-                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                        
-                        <div class="map-overlay-badge">
-                            <span><i class="fa-solid fa-square-parking"></i> Valet no local</span>
-                            <a href="https://maps.google.com" target="_blank" class="map-link-btn">
-                                <i class="fa-solid fa-location-arrow"></i> Como Chegar
-                            </a>
-                        </div>
-                    </div>
+                <div class="contato-mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.702759882207!2d-46.6896238!3d-23.5791336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5773179268f7%3A0xd68bc91959828d54!2sAv.%20Brig.%20Faria%20Lima%2C%202000%20-%20Jardim%20Paulistano%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" 
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
-        <div class="container footer-inner">
+    <footer class="site-footer">
+        <div class="wrap footer-row">
             <div class="footer-brand">
-                <span class="logo-title">MENDONÇA & SILVEIRA</span>
-                <span class="logo-sub">ADVOCACIA & CONSULTORIA JURÍDICA</span>
+                <strong>Mendonça<span>&</span>Silveira</strong>
+                <small>Advocacia & Consultoria Jurídica</small>
             </div>
-            <p class="footer-copy">&copy; 2026 Mendonça & Silveira Advogados • OAB-SP 123.456. Todos os direitos reservados.</p>
+            <p>&copy; 2026 Mendonça & Silveira Advogados · OAB/SP 123.456</p>
         </div>
     </footer>
 
-    <!-- Floating WhatsApp -->
-    <a href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20informa%C3%A7%C3%B5es" target="_blank" class="whatsapp-btn" aria-label="WhatsApp">
+    <!-- WhatsApp flutuante -->
+    <a href="https://wa.me/5511999999999?text=Olá!%20Vim%20pelo%20site." target="_blank" class="fab-whatsapp" aria-label="WhatsApp">
         <i class="fa-brands fa-whatsapp"></i>
     </a>
 

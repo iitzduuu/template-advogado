@@ -1,43 +1,34 @@
-/* -------------------------------------------------------------
-   MENDONÇA & SILVEIRA ADVOCACIA - Minimalist Interactive Script
-   ------------------------------------------------------------- */
-
 document.addEventListener('DOMContentLoaded', () => {
 
-    // 1. Mobile Menu Toggle
+    // Mobile menu
     const hamburger = document.getElementById('hamburger');
-    const navMenu = document.getElementById('nav-menu');
-    const navLinks = document.querySelectorAll('.nav-link');
+    const nav = document.getElementById('nav-menu');
 
-    if (hamburger && navMenu) {
+    if (hamburger && nav) {
         hamburger.addEventListener('click', () => {
-            navMenu.classList.toggle('active');
-            const isOpened = navMenu.classList.contains('active');
-            hamburger.innerHTML = isOpened ? '<i class="fa-solid fa-xmark"></i>' : '<i class="fa-solid fa-bars"></i>';
+            const open = nav.classList.toggle('active');
+            hamburger.innerHTML = open
+                ? '<i class="fa-solid fa-xmark"></i>'
+                : '<i class="fa-solid fa-bars"></i>';
         });
 
-        navLinks.forEach(link => {
+        nav.querySelectorAll('.nav-link').forEach(link => {
             link.addEventListener('click', () => {
-                navMenu.classList.remove('active');
+                nav.classList.remove('active');
                 hamburger.innerHTML = '<i class="fa-solid fa-bars"></i>';
             });
         });
     }
 
-    // 2. FAQ Accordion Toggle
-    const faqItems = document.querySelectorAll('.faq-item');
-
-    faqItems.forEach(item => {
-        const questionBtn = item.querySelector('.faq-question');
-        questionBtn.addEventListener('click', () => {
-            const isActive = item.classList.contains('active');
+    // FAQ accordion
+    document.querySelectorAll('.faq-item').forEach(item => {
+        item.querySelector('.faq-q').addEventListener('click', () => {
+            const wasOpen = item.classList.contains('open');
             
-            // Close all others
-            faqItems.forEach(i => i.classList.remove('active'));
-
-            if (!isActive) {
-                item.classList.add('active');
-            }
+            // close all
+            document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+            
+            if (!wasOpen) item.classList.add('open');
         });
     });
 
