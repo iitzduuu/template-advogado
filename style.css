@@ -105,7 +105,6 @@ em { font-style: italic; color: var(--bronze); }
     justify-content: space-between;
     height: 72px;
     gap: 20px;
-    white-space: nowrap;
 }
 
 .brand {
@@ -113,39 +112,37 @@ em { font-style: italic; color: var(--bronze); }
     flex-direction: column;
     line-height: 1.1;
     flex-shrink: 0;
+    white-space: nowrap;
 }
 .brand strong {
     font-family: var(--serif);
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     color: var(--ink);
     letter-spacing: 0.5px;
-    white-space: nowrap;
 }
 .brand strong span {
     color: var(--bronze);
     margin: 0 2px;
 }
 .brand small {
-    font-size: 0.6rem;
+    font-size: 0.58rem;
     color: var(--stone-600);
     letter-spacing: 1px;
     font-weight: 500;
-    white-space: nowrap;
 }
 
 #nav-menu {
     display: flex;
-    gap: 22px;
-    flex-shrink: 1;
-    min-width: 0;
+    gap: 18px;
+    align-items: center;
+    white-space: nowrap;
 }
 .nav-link {
-    font-size: 0.84rem;
+    font-size: 0.82rem;
     font-weight: 500;
     color: var(--stone-600);
     transition: color .25s var(--ease);
     position: relative;
-    white-space: nowrap;
 }
 .nav-link::after {
     content: '';
@@ -159,10 +156,10 @@ em { font-style: italic; color: var(--bronze); }
 .nav-link:hover::after { width: 100%; }
 
 .cta-header {
-    padding: 9px 22px;
+    padding: 8px 18px;
     background: var(--ink);
     color: var(--white);
-    font-size: 0.8rem;
+    font-size: 0.78rem;
     font-weight: 600;
     border-radius: var(--radius);
     transition: background .25s var(--ease);
